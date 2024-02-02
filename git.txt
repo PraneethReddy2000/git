@@ -1,0 +1,31 @@
+git init myrepo
+cd myrepo
+ls -la
+nano hello.txt
+git status
+git add hello.txt
+git status
+git config --global user.name "PraneethReddy2000"
+git config --global user.email "praneethreddynarahari@gmail.com"
+git commit -m "Initial commit of hello.txt"
+git status
+nano hello.txt
+git status
+git diff hello.txt
+git add hello.txt
+git status 
+git commit
+git log --oneline
+cat hello.txt
+git revert wwueh327(master)
+cat hello.txt
+cd ..
+git clone (github rep link)
+cd (rep)
+cd .git
+ls -la
+cat config
+cd myrepo
+git remote add origin (rep link)
+cat .git/config
+git push origin master
